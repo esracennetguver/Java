@@ -1,6 +1,0 @@
-public class İndividualCustomer extends Customer{
-
-     String firstName;
-     String lastName;
-     String nationalIdentity;
-}
