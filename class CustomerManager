@@ -1,0 +1,22 @@
+public class CustomerManager {
+
+    /*public void add(İndividualCustomer customer){
+        System.out.println(customer.customerNumber + " Kaydedildi");
+    }
+
+    public void add(CorporateCustomer customer){
+        System.out.println(customer.customerNumber + " Kaydedildi");
+    }*/
+
+    //yukarıdaki işlemin aynısı ancak polymorhism ile tek satırda yapıldı.
+    public void add(Customer customer){
+        System.out.println(customer.customerNumber + " Kaydedildi");
+
+    }
+
+    public void addMultiple( Customer[] customers){
+        for(Customer customer:customers){
+            add(customer);
+        }
+    }
+}
